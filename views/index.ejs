@@ -6,6 +6,12 @@
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
   </head>
+  <script language="javascript">
+    function changeImage() {
+      console.log("ugh");
+      document.getElementById("imagename").src = "/images/bar.png";
+    }
+  </script>
   <body>
     <div class="container">
       <fieldset>
@@ -23,5 +29,6 @@
       </fieldset>
       <canvas id="myChart"></canvas>
     </div>
+    <img class="graphimage" id="imagename" src= <%= testname %> />
   </body>
 </html>
