@@ -22,7 +22,7 @@
   "homepage": "https://github.com/dartmouth-cs98/hack-a-thing-1-sean-hack1#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "chart.js": "^2.7.3",
+    "chart.js": "^2.9.4",
     "d3": "^5.12.0",
     "ejs": "^2.7.1",
     "express": "^4.17.1",
